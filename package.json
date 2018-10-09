@@ -1,0 +1,20 @@
+{
+  "name": "thetodolist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Erikson Murrugarra <erikson.murrugarra@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --watch true"
+
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
