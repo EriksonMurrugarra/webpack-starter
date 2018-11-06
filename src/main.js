@@ -1,1 +1,0 @@
-document.write("<h1>document.write('From Javascript')</h1>");
